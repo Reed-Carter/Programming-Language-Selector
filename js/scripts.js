@@ -4,14 +4,9 @@ function determineLanguage(event) {
   const height = parseInt(document.getElementById("inputHeight").value)
   const eyeColor = document.getElementById("inputEyeColor")
   const aspiration = document.getElementById("inputAspiration")
-  //const name = document.getElementById("name").innerText
+  
 
-  let result;
-  console.log("age" + age)
-  console.log("heigt" + height)
-  console.log("eyeColor" + eyeColor)
-  console.log("aspiration" + aspiration)
-  console.log("name" + name)
+  let result;  
   if (age >= 50 && height <= 60 && eyeColor === "blue" && aspiration === "javaScript") {
     result = "the programming languagee you should learn first is Java Script!";
   }
