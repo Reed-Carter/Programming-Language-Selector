@@ -1,12 +1,14 @@
 function determineLanguage(event) {
   event.preventDefault();
-  const age = parseInt(document.getElementById("inputAge").value)
-  const height = parseInt(document.getElementById("inputHeight").value)
-  const eyeColor = document.getElementById("inputEyeColor")
-  const aspiration = document.getElementById("inputAspiration")
+  const age = parseInt(document.getElementById("inputAge").value);
+  const height = parseInt(document.getElementById("inputHeight").value);
+  const eyeColor = document.getElementById("inputEyeColor");
+  const aspiration = document.getElementById("inputAspiration");
   
 
   let result;  
+  console.log("eyeColor" + eyeColor)
+  console.log("aspiration" + aspiration)
   if (age >= 50 && height <= 60 && eyeColor === "blue" && aspiration === "javaScript") {
     result = "Java Script!";
   }
