@@ -1,4 +1,3 @@
-
 function determineLanguage(event) {
   event.preventDefault();
   const age = parseInt(document.getElementById("inputAge").value);
@@ -8,8 +7,6 @@ function determineLanguage(event) {
   const username = document.getElementById("inputname").value;
   
   let result;  
-  console.log("eyeColor" + eyeColor)
-  console.log("aspiration" + aspiration)
   if (age >= 50 && height <= 60 && eyeColor === "blue" && aspiration === "javaScript") {
     result = username + "you should learn Java Script!";
   }
@@ -23,10 +20,10 @@ function determineLanguage(event) {
     result = username + "you should learn R";
   }
   else if (age <20 && height > 69 && eyeColor === "green" && aspiration === "cSharp") {
-    result =  "C#";
+    result = username + "you should learn C#!";
   }
   else {
-    result = "Womp Womp, coding doesnt seem like its for you..maybe try hiking!";
+    result = "Womp Womp, coding doesnt seem like it's for you. Maybe try hiking!";
   }
 
   document.getElementById("output").innerText = result;
