@@ -8,19 +8,19 @@ function determineLanguage(event) {
 
   let result;  
   if (age >= 50 && height <= 60 && eyeColor === "blue" && aspiration === "javaScript") {
-    result = "the programming languagee you should learn first is Java Script!";
+    result = "the programming language you should learn first is Java Script!";
   }
   else if (age < 50 && age >= 40 || height > 60 && height <= 63 || eyeColor === "Brown" && aspiration === "python") {
-    result = "the programming languagee you should learn first is Python";
+    result = "the programming language you should learn first is Python";
   }
   else if (age < 40 && age >= 30 || height > 63 && height <= 66 || eyeColor === "Brown" && aspiration === "java") {
-    result =  "the programming languagee you should learn first is Java";
+    result =  "the programming language you should learn first is Java";
   }
   else if (age < 30 && age >= 20 || height > 66 && height <= 69 || eyeColor === "Brown" && aspiration === "R") {
-    result =  "the programming languagee you should learn first is R";
+    result =  "the programming language you should learn first is R";
   }
   else if (age <20 || height > 69 || eyeColor === "Green" && aspiration === "cSharp") {
-    result =  "the programming languagee you should learn first is C#";
+    result =  "the programming language you should learn first is C#";
   }
   else {
     result = "Unfortunately based on your characteristics you shouldn't pick up coding. Maybe try hiking!";
