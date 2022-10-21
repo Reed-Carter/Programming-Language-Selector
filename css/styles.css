@@ -10,12 +10,17 @@ h2 {
   background-image: url(https://wallpapercave.com/wp/wp4312249.png);
 }
 
+p {
+  font-size: xx-large;
+  text-align: center;
+}
+
 button {
   display: inline-block;
-  background-color: #7b38d8;
+  background-color: #1d1c20;
   border-radius: 10px;
   border: 4px double #cccccc;
-  color: #eeeeee;
+  color: blanchedalmond;
   text-align: center;
   font-size: 28px;
   padding: 20px;
@@ -41,7 +46,7 @@ button span:after {
   transition: 0.5s;
 }
 button:hover {
-  background-color: #f7c2f9;
+  background-color: #464446;
 }
 button:hover span {
   padding-right: 25px;
@@ -51,8 +56,10 @@ button:hover span:after {
   right: 0;
 }
 
-p {
-  
+.card-body {
+  background-color: #1d1c20;
+  color: blanchedalmond;
+  border-radius: 10px;
 }
 
 
