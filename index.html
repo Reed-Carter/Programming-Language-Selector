@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
   <title>Programming Language Selector</title>
 </head>
 <body>
   <h1> Programming Language Selector</h1>
   <h2> Answer the qustions to find out which programming language you should learn!</h2>
-  <form id="languageSelectorSurvey"></form>
+  <form id="languageSelectorSurvey">
     <label for="inputAge">How old are you?</label>
     <input id="inputAge" type="number"><br>
     <label for="inputHeight" type="number">What is your height in inches?</label>
@@ -18,7 +17,11 @@
       <option value="blue">Blue</option>
       <option value="brown">Brown</option>
       <option value="green">Green</option>
-
     </select>
-    
+    <button type="submit" class="btn">Submit</button>
+  </form>
+  <h3>Heres the Programming Language you should learn:</h3>
+  <p id="output"></p>
+
 </body>
+</html>
