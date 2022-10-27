@@ -1,4 +1,4 @@
-# Programming-language-seector
+# Programming-language-selector
 
 #### By Reed Carter
 
