@@ -1,8 +1,8 @@
-# Programming Language Selector
+# Pig Latin Translator
 
 #### By Reed Carter
 
-#### A website to display projects I have created while at Epicodus
+#### A website to convert a text into Pig Latin
 
 ## Technologies Used
 
@@ -10,17 +10,17 @@
 * CSS
 * JS
 * GitHub
-* Bootstrap
 
 ## Description
 
-This is a website to help people interested in coding decide which coding language they should learn first. Project details can be found here: https://github.com/Reed-Carter/Programming-Language-Selector
+This is a translator that will translate any text into Pig Latin. A complete repository can be found here: https://github.com/Reed-Carter/Pig-Latin.git.
 
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop
 * Navigate to the top level directory
 * Open index.html in your browser
+
 
 ## Known Bugs
 
