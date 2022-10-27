@@ -1,8 +1,8 @@
-# Pig Latin Translator
+# Programming-language-seector
 
 #### By Reed Carter
 
-#### A website to convert a text into Pig Latin
+#### A website to recommend a programming language to learn
 
 ## Technologies Used
 
@@ -13,7 +13,7 @@
 
 ## Description
 
-This is a translator that will translate any text into Pig Latin. A complete repository can be found here: https://github.com/Reed-Carter/Pig-Latin.git.
+This is a translator website that will recommend a programming language to use. A complete repository can be found here: https://github.com/Reed-Carter/Programming-Language-Selector
 
 ## Setup/Installation Requirements
 
